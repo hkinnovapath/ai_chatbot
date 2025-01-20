@@ -34,8 +34,7 @@ function Sidebar({ chats, activeChat, onAddNewChat, onSwitchChat, onDeleteChat, 
                 e.stopPropagation(); // Prevent triggering the switchChat on delete click
                 onDeleteChat(chat);
               }}
-              className="text-red-500 hover:text-red-700"
-            >
+              className="text-gray-800 hover:text-red-600">
               <FaTrash />
             </button>
           </li>
